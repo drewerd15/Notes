@@ -1,0 +1,8 @@
+Tip of the Day
+Debugging and getting stuck. The advice I have today sounds obvious but from my experience new coders can have mental blind spots over this. So next time you have a weird bug or are just stuck ask yourself 2 questions:
+What exactly am I trying to do? What exactly should I be seeing? Examples might be: This box should turn red. This number should be 5. These are very specific goals that are results not method orientated. The box should turn red, not the box should turn red by [exact method I'm trying here]. That's another trap that can get you stuck down one path. If you can't define exactly what behavior you want then that's going to be 80% of your problem.
+What is happening? Exactly what behavior am I seeing? Examples might be: This box is turning purple. This number is 6. Try to determine to the best of your ability what behavior you are seeing. 
+If a box turns purple instead of red that tells us a lot! We know that it is changing when we want to, we know that our purple code is getting called somehow, so now we have a bridge, we can look at our trigger (like a mouse click) and walk through to our change and see where things are going wrong.
+The output of 6 instead of 5 is interesting, because that's an off by one error. Those happen a lot in coding. As you get more experience you'll know to start looking at your for loops and your <'s.
+
+Summary: Stuck? Define exactly what results you want not the methods to get there. Define exactly what results you are seeing.
